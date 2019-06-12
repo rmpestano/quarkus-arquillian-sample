@@ -1,0 +1,17 @@
+io/quarkus/myfaces/runtime/scopes/QuarkusFacesScopeContext.class
+io/quarkus/myfaces/runtime/spi/QuarkusAnnotationProvider.class
+io/quarkus/myfaces/runtime/scopes/QuarkusViewScopeContext.class
+io/quarkus/myfaces/runtime/spi/QuarkusResourceResolver.class
+io/quarkus/myfaces/runtime/scopes/QuarkusViewTransientScopeContext.class
+io/quarkus/myfaces/runtime/MyFacesTemplate.class
+io/quarkus/myfaces/runtime/QuarkusApplication.class
+io/quarkus/myfaces/runtime/exception/QuarkusExceptionHandlerFactory.class
+io/quarkus/myfaces/runtime/QuarkusServletContextListener.class
+io/quarkus/myfaces/runtime/spi/QuarkusFacesFlowProvider.class
+io/quarkus/myfaces/runtime/exception/QuarkusExceptionHandler.class
+META-INF/quarkus-javadoc.properties
+io/quarkus/myfaces/runtime/spi/QuarkusELResolverBuilder.class
+io/quarkus/myfaces/runtime/QuarkusApplicationFactory.class
+io/quarkus/myfaces/runtime/MyFacesTemplate$$accessor.class
+io/quarkus/myfaces/runtime/spi/QuarkusCdiELResolver.class
+io/quarkus/myfaces/runtime/spi/QuarkusInjectionProvider.class

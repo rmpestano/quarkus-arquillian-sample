@@ -1,0 +1,211 @@
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective settings
+[[1;33mWARNING[m] 'servers.server.id' must be unique but found duplicate server with id central @ /home/PROCERGS.REDERS/rafael-pestano/.m2/settings.xml
+[[1;33mWARNING[m] 'servers.server.id' must be unique but found duplicate server with id snapshots @ /home/PROCERGS.REDERS/rafael-pestano/.m2/settings.xml
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mio.quarkus:quarkus-myfaces-showcase[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding Quarkus - MyFaces - Showcase 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mquarkus-myfaces-showcase[0;1m ---[m
+[[1;34mINFO[m] io.quarkus:quarkus-myfaces-showcase:jar:1.0-SNAPSHOT
+[[1;34mINFO[m] +- io.quarkus:quarkus-myfaces:jar:0.16.1:compile
+[[1;34mINFO[m] |  +- org.apache.myfaces.core:myfaces-api:jar:3.0.0-M1:compile
+[[1;34mINFO[m] |  +- org.apache.myfaces.core:myfaces-impl:jar:3.0.0-M1:compile
+[[1;34mINFO[m] |  +- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+[[1;34mINFO[m] |  |  +- commons-logging:commons-logging:jar:1.2:compile
+[[1;34mINFO[m] |  |  \- commons-collections:commons-collections:jar:3.2.2:compile
+[[1;34mINFO[m] |  +- org.apache.tomcat:tomcat-jasper-el:jar:9.0.17:compile
+[[1;34mINFO[m] |  |  \- org.apache.tomcat:tomcat-el-api:jar:9.0.17:compile
+[[1;34mINFO[m] |  +- org.jboss.spec.javax.websocket:jboss-websocket-api_1.1_spec:jar:1.1.4.Final:compile
+[[1;34mINFO[m] |  +- io.quarkus:quarkus-core:jar:0.16.1:compile
+[[1;34mINFO[m] |  |  +- javax.inject:javax.inject:jar:1:compile
+[[1;34mINFO[m] |  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[[1;34mINFO[m] |  |  +- io.smallrye:smallrye-config:jar:1.3.5:compile
+[[1;34mINFO[m] |  |  |  +- org.eclipse.microprofile.config:microprofile-config-api:jar:1.3:compile
+[[1;34mINFO[m] |  |  |  |  \- org.osgi:org.osgi.annotation.versioning:jar:1.0.0:compile
+[[1;34mINFO[m] |  |  |  \- javax.enterprise:cdi-api:jar:2.0.SP1:compile
+[[1;34mINFO[m] |  |  |     +- javax.el:javax.el-api:jar:3.0.0:compile
+[[1;34mINFO[m] |  |  |     \- javax.interceptor:javax.interceptor-api:jar:1.2:compile
+[[1;34mINFO[m] |  |  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[[1;34mINFO[m] |  |  +- org.jboss.logmanager:jboss-logmanager-embedded:jar:1.0.3:compile
+[[1;34mINFO[m] |  |  +- org.jboss.logging:jboss-logging-annotations:jar:2.1.0.Final:compile
+[[1;34mINFO[m] |  |  +- org.jboss.threads:jboss-threads:jar:3.0.0.Beta4:compile
+[[1;34mINFO[m] |  |  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+[[1;34mINFO[m] |  |  +- org.jboss.slf4j:slf4j-jboss-logging:jar:1.1.0.Final:compile
+[[1;34mINFO[m] |  |  +- org.graalvm.sdk:graal-sdk:jar:1.0.0-rc16:compile
+[[1;34mINFO[m] |  |  +- org.wildfly.common:wildfly-common:jar:1.5.0.Final-format-001:compile
+[[1;34mINFO[m] |  |  +- org.wildfly.security:wildfly-elytron-ssl:jar:2.0.0.Alpha4:compile
+[[1;34mINFO[m] |  |  |  +- org.wildfly.security:wildfly-elytron-auth-server:jar:2.0.0.Alpha4:compile
+[[1;34mINFO[m] |  |  |  |  \- org.wildfly.security:wildfly-elytron-permission:jar:2.0.0.Alpha4:compile
+[[1;34mINFO[m] |  |  |  +- org.wildfly.security:wildfly-elytron-base:jar:2.0.0.Alpha4:compile
+[[1;34mINFO[m] |  |  |  +- org.wildfly.security:wildfly-elytron-credential:jar:2.0.0.Alpha4:compile
+[[1;34mINFO[m] |  |  |  |  +- org.wildfly.security:wildfly-elytron-keystore:jar:2.0.0.Alpha4:compile
+[[1;34mINFO[m] |  |  |  |  \- org.wildfly.security:wildfly-elytron-provider-util:jar:2.0.0.Alpha4:compile
+[[1;34mINFO[m] |  |  |  +- org.wildfly.security:wildfly-elytron-auth:jar:2.0.0.Alpha4:compile
+[[1;34mINFO[m] |  |  |  +- org.wildfly.security:wildfly-elytron-util:jar:2.0.0.Alpha4:compile
+[[1;34mINFO[m] |  |  |  \- org.wildfly.security:wildfly-elytron-x500:jar:2.0.0.Alpha4:compile
+[[1;34mINFO[m] |  |  \- org.wildfly.security:wildfly-elytron-x500-cert:jar:2.0.0.Alpha4:compile
+[[1;34mINFO[m] |  |     +- org.wildfly.security:wildfly-elytron-asn1:jar:2.0.0.Alpha4:compile
+[[1;34mINFO[m] |  |     \- org.wildfly.security:wildfly-elytron-x500-cert-util:jar:2.0.0.Alpha4:compile
+[[1;34mINFO[m] |  +- io.quarkus:quarkus-undertow:jar:0.16.1:compile
+[[1;34mINFO[m] |  |  +- io.quarkus:quarkus-arc:jar:0.16.1:compile
+[[1;34mINFO[m] |  |  |  +- io.quarkus.arc:arc:jar:0.16.1:compile
+[[1;34mINFO[m] |  |  |  \- org.eclipse.microprofile.context-propagation:microprofile-context-propagation-api:jar:1.0-RC1:compile
+[[1;34mINFO[m] |  |  +- io.undertow:undertow-servlet:jar:2.0.19.Final:compile
+[[1;34mINFO[m] |  |  |  +- io.undertow:undertow-core:jar:2.0.19.Final:compile
+[[1;34mINFO[m] |  |  |  \- org.jboss.spec.javax.servlet:jboss-servlet-api_4.0_spec:jar:1.0.0.Final:compile
+[[1;34mINFO[m] |  |  +- org.jboss.xnio:xnio-nio:jar:3.7.1.Final:compile
+[[1;34mINFO[m] |  |  \- org.jboss.xnio:xnio-api:jar:3.7.1.Final:compile
+[[1;34mINFO[m] |  \- io.quarkus:quarkus-jsonp:jar:0.16.1:compile
+[[1;34mINFO[m] |     \- org.glassfish:javax.json:jar:1.1.4:compile
+[[1;34mINFO[m] +- org.primefaces:primefaces:jar:7.0:compile
+[[1;34mINFO[m] +- javax.validation:validation-api:jar:2.0.1.Final:compile
+[[1;34mINFO[m] +- io.quarkus:quarkus-arquillian:jar:0.16.1:test
+[[1;34mINFO[m] |  +- io.quarkus:quarkus-bootstrap-core:jar:0.16.1:test
+[[1;34mINFO[m] |  |  +- org.apache.maven:maven-embedder:jar:3.5.4:test
+[[1;34mINFO[m] |  |  |  +- org.apache.maven:maven-settings:jar:3.5.4:test
+[[1;34mINFO[m] |  |  |  +- org.apache.maven:maven-core:jar:3.5.4:test
+[[1;34mINFO[m] |  |  |  |  +- org.apache.maven:maven-artifact:jar:3.5.4:test
+[[1;34mINFO[m] |  |  |  |  \- org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.3:test
+[[1;34mINFO[m] |  |  |  +- org.apache.maven:maven-plugin-api:jar:3.5.4:test
+[[1;34mINFO[m] |  |  |  +- org.apache.maven:maven-model:jar:3.5.4:test
+[[1;34mINFO[m] |  |  |  +- org.apache.maven:maven-model-builder:jar:3.5.4:test
+[[1;34mINFO[m] |  |  |  +- org.apache.maven:maven-builder-support:jar:3.5.4:test
+[[1;34mINFO[m] |  |  |  +- org.apache.maven.resolver:maven-resolver-api:jar:1.1.1:test
+[[1;34mINFO[m] |  |  |  +- org.apache.maven.resolver:maven-resolver-util:jar:1.1.1:test
+[[1;34mINFO[m] |  |  |  +- org.apache.maven.shared:maven-shared-utils:jar:3.2.1:test
+[[1;34mINFO[m] |  |  |  +- com.google.inject:guice:jar:no_aop:4.2.0:test
+[[1;34mINFO[m] |  |  |  |  \- aopalliance:aopalliance:jar:1.0:test
+[[1;34mINFO[m] |  |  |  +- javax.annotation:jsr250-api:jar:1.0:test
+[[1;34mINFO[m] |  |  |  +- org.codehaus.plexus:plexus-utils:jar:3.0.24:test
+[[1;34mINFO[m] |  |  |  +- org.codehaus.plexus:plexus-classworlds:jar:2.5.2:test
+[[1;34mINFO[m] |  |  |  +- org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.3:test
+[[1;34mINFO[m] |  |  |  +- org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:test
+[[1;34mINFO[m] |  |  |  +- commons-cli:commons-cli:jar:1.4:test
+[[1;34mINFO[m] |  |  |  \- org.apache.commons:commons-lang3:jar:3.8.1:test
+[[1;34mINFO[m] |  |  +- org.apache.maven:maven-settings-builder:jar:3.5.4:test
+[[1;34mINFO[m] |  |  |  +- org.codehaus.plexus:plexus-interpolation:jar:1.24:test
+[[1;34mINFO[m] |  |  |  \- org.sonatype.plexus:plexus-sec-dispatcher:jar:1.4:test
+[[1;34mINFO[m] |  |  |     \- org.sonatype.plexus:plexus-cipher:jar:1.4:test
+[[1;34mINFO[m] |  |  +- org.apache.maven:maven-resolver-provider:jar:3.5.4:test
+[[1;34mINFO[m] |  |  |  +- org.apache.maven:maven-repository-metadata:jar:3.5.4:test
+[[1;34mINFO[m] |  |  |  +- org.apache.maven.resolver:maven-resolver-spi:jar:1.1.1:test
+[[1;34mINFO[m] |  |  |  \- org.apache.maven.resolver:maven-resolver-impl:jar:1.1.1:test
+[[1;34mINFO[m] |  |  +- org.apache.maven.resolver:maven-resolver-connector-basic:jar:1.1.1:test
+[[1;34mINFO[m] |  |  +- org.apache.maven.resolver:maven-resolver-transport-file:jar:1.1.1:test
+[[1;34mINFO[m] |  |  \- org.apache.maven.resolver:maven-resolver-transport-http:jar:1.1.1:test
+[[1;34mINFO[m] |  |     \- org.slf4j:jcl-over-slf4j:jar:1.7.25:test
+[[1;34mINFO[m] |  +- io.quarkus:quarkus-test-common:jar:0.16.1:test
+[[1;34mINFO[m] |  |  +- io.quarkus:quarkus-core-deployment:jar:0.16.1:test
+[[1;34mINFO[m] |  |  |  +- org.jboss.invocation:jboss-invocation:jar:1.5.2.Final:test
+[[1;34mINFO[m] |  |  |  +- org.jboss.classfilewriter:jboss-classfilewriter:jar:1.2.4.Final:test
+[[1;34mINFO[m] |  |  |  +- io.quarkus.gizmo:gizmo:jar:1.0.0.Alpha4:test
+[[1;34mINFO[m] |  |  |  |  \- org.ow2.asm:asm-util:jar:7.1:test
+[[1;34mINFO[m] |  |  |  |     +- org.ow2.asm:asm-tree:jar:7.1:test
+[[1;34mINFO[m] |  |  |  |     \- org.ow2.asm:asm-analysis:jar:7.1:test
+[[1;34mINFO[m] |  |  |  +- org.ow2.asm:asm:jar:7.1:test
+[[1;34mINFO[m] |  |  |  \- io.quarkus:quarkus-builder:jar:0.16.1:test
+[[1;34mINFO[m] |  |  +- io.quarkus:quarkus-jsonp-deployment:jar:0.16.1:test
+[[1;34mINFO[m] |  |  \- org.jboss:jandex:jar:2.1.1.Final:test
+[[1;34mINFO[m] |  +- io.quarkus:quarkus-arc-deployment:jar:0.16.1:test
+[[1;34mINFO[m] |  |  \- io.quarkus.arc:arc-processor:jar:0.16.1:test
+[[1;34mINFO[m] |  +- org.jboss.arquillian.container:arquillian-container-spi:jar:1.4.1.Final:test
+[[1;34mINFO[m] |  |  +- org.jboss.arquillian.core:arquillian-core-spi:jar:1.4.1.Final:test
+[[1;34mINFO[m] |  |  |  \- org.jboss.arquillian.core:arquillian-core-api:jar:1.4.1.Final:test
+[[1;34mINFO[m] |  |  +- org.jboss.arquillian.config:arquillian-config-api:jar:1.4.1.Final:test
+[[1;34mINFO[m] |  |  +- org.jboss.arquillian.config:arquillian-config-impl-base:jar:1.4.1.Final:test
+[[1;34mINFO[m] |  |  |  +- org.jboss.arquillian.config:arquillian-config-spi:jar:1.4.1.Final:test
+[[1;34mINFO[m] |  |  |  \- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-spi:jar:2.0.0:test
+[[1;34mINFO[m] |  |  +- org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:test
+[[1;34mINFO[m] |  |  \- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-base:jar:2.0.0:test
+[[1;34mINFO[m] |  +- org.jboss.arquillian.container:arquillian-container-test-spi:jar:1.4.1.Final:test
+[[1;34mINFO[m] |  |  +- org.jboss.arquillian.test:arquillian-test-spi:jar:1.4.1.Final:test
+[[1;34mINFO[m] |  |  \- org.jboss.arquillian.container:arquillian-container-test-api:jar:1.4.1.Final:test
+[[1;34mINFO[m] |  +- org.jboss.arquillian.container:arquillian-container-test-impl-base:jar:1.4.1.Final:test
+[[1;34mINFO[m] |  |  \- org.jboss.arquillian.test:arquillian-test-api:jar:1.4.1.Final:test
+[[1;34mINFO[m] |  +- org.jboss.arquillian.junit:arquillian-junit-container:jar:1.4.1.Final:test
+[[1;34mINFO[m] |  |  +- org.jboss.arquillian.junit:arquillian-junit-core:jar:1.4.1.Final:test
+[[1;34mINFO[m] |  |  +- org.jboss.arquillian.core:arquillian-core-impl-base:jar:1.4.1.Final:test
+[[1;34mINFO[m] |  |  +- org.jboss.arquillian.test:arquillian-test-impl-base:jar:1.4.1.Final:test
+[[1;34mINFO[m] |  |  +- org.jboss.arquillian.container:arquillian-container-impl-base:jar:1.4.1.Final:test
+[[1;34mINFO[m] |  |  \- org.jboss.shrinkwrap:shrinkwrap-impl-base:jar:1.2.6:test
+[[1;34mINFO[m] |  |     \- org.jboss.shrinkwrap:shrinkwrap-spi:jar:1.2.6:test
+[[1;34mINFO[m] |  \- junit:junit:jar:4.12:test
+[[1;34mINFO[m] |     \- org.hamcrest:hamcrest-core:jar:1.3:test
+[[1;34mINFO[m] +- org.jboss.arquillian.graphene:graphene-webdriver:pom:2.3.2:test
+[[1;34mINFO[m] |  +- org.jboss.arquillian.graphene:graphene-webdriver-api:jar:2.3.2:test
+[[1;34mINFO[m] |  +- org.jboss.arquillian.graphene:graphene-webdriver-spi:jar:2.3.2:test
+[[1;34mINFO[m] |  +- org.jboss.arquillian.graphene:graphene-webdriver-impl:jar:2.3.2:test
+[[1;34mINFO[m] |  |  +- org.jboss.arquillian.extension:arquillian-drone-impl:jar:2.5.1:test
+[[1;34mINFO[m] |  |  +- org.jboss.arquillian.extension:arquillian-drone-configuration:jar:2.5.1:test
+[[1;34mINFO[m] |  |  +- cglib:cglib-nodep:jar:3.2.5:test
+[[1;34mINFO[m] |  |  \- org.objenesis:objenesis:jar:1.2:test
+[[1;34mINFO[m] |  +- org.jboss.arquillian.extension:arquillian-drone-webdriver-depchain:pom:2.5.1:test
+[[1;34mINFO[m] |  |  +- org.jboss.arquillian.extension:arquillian-drone-api:jar:2.5.1:test
+[[1;34mINFO[m] |  |  +- org.jboss.arquillian.extension:arquillian-drone-spi:jar:2.5.1:test
+[[1;34mINFO[m] |  |  +- org.jboss.arquillian.extension:arquillian-drone-webdriver:jar:2.5.1:test
+[[1;34mINFO[m] |  |  |  +- org.arquillian.spacelift:arquillian-spacelift:jar:1.0.2:test
+[[1;34mINFO[m] |  |  |  |  +- org.arquillian.spacelift:arquillian-spacelift-api:jar:1.0.2:test
+[[1;34mINFO[m] |  |  |  |  \- org.apache.commons:commons-compress:jar:1.8.1:test
+[[1;34mINFO[m] |  |  |  +- commons-io:commons-io:jar:2.5:test
+[[1;34mINFO[m] |  |  |  +- org.jsoup:jsoup:jar:1.8.3:test
+[[1;34mINFO[m] |  |  |  \- org.awaitility:awaitility:jar:3.1.6:test
+[[1;34mINFO[m] |  |  |     \- org.hamcrest:hamcrest-library:jar:1.3:test
+[[1;34mINFO[m] |  |  +- org.seleniumhq.selenium:selenium-api:jar:3.11.0:test
+[[1;34mINFO[m] |  |  +- org.seleniumhq.selenium:selenium-support:jar:3.11.0:test
+[[1;34mINFO[m] |  |  +- org.seleniumhq.selenium:selenium-chrome-driver:jar:3.11.0:test
+[[1;34mINFO[m] |  |  +- org.seleniumhq.selenium:selenium-firefox-driver:jar:3.11.0:test
+[[1;34mINFO[m] |  |  +- org.seleniumhq.selenium:selenium-ie-driver:jar:3.11.0:test
+[[1;34mINFO[m] |  |  +- org.seleniumhq.selenium:selenium-remote-driver:jar:3.11.0:test
+[[1;34mINFO[m] |  |  +- org.seleniumhq.selenium:htmlunit-driver:jar:2.28:test
+[[1;34mINFO[m] |  |  |  \- net.sourceforge.htmlunit:htmlunit:jar:2.28:test
+[[1;34mINFO[m] |  |  |     +- xalan:xalan:jar:2.7.2:test
+[[1;34mINFO[m] |  |  |     |  \- xalan:serializer:jar:2.7.2:test
+[[1;34mINFO[m] |  |  |     +- org.apache.commons:commons-text:jar:1.1:test
+[[1;34mINFO[m] |  |  |     +- org.apache.httpcomponents:httpmime:jar:4.5.3:test
+[[1;34mINFO[m] |  |  |     +- net.sourceforge.htmlunit:htmlunit-core-js:jar:2.28:test
+[[1;34mINFO[m] |  |  |     +- net.sourceforge.htmlunit:neko-htmlunit:jar:2.28:test
+[[1;34mINFO[m] |  |  |     |  \- xerces:xercesImpl:jar:2.11.0:test
+[[1;34mINFO[m] |  |  |     |     \- xml-apis:xml-apis:jar:1.4.01:test
+[[1;34mINFO[m] |  |  |     +- net.sourceforge.cssparser:cssparser:jar:0.9.24:test
+[[1;34mINFO[m] |  |  |     |  \- org.w3c.css:sac:jar:1.3:test
+[[1;34mINFO[m] |  |  |     +- commons-net:commons-net:jar:3.6:test
+[[1;34mINFO[m] |  |  |     \- org.eclipse.jetty.websocket:websocket-client:jar:9.4.7.v20170914:test
+[[1;34mINFO[m] |  |  |        +- org.eclipse.jetty:jetty-client:jar:9.4.18.v20190429:test
+[[1;34mINFO[m] |  |  |        |  \- org.eclipse.jetty:jetty-http:jar:9.4.18.v20190429:test
+[[1;34mINFO[m] |  |  |        +- org.eclipse.jetty:jetty-xml:jar:9.4.7.v20170914:test
+[[1;34mINFO[m] |  |  |        +- org.eclipse.jetty:jetty-util:jar:9.4.18.v20190429:test
+[[1;34mINFO[m] |  |  |        +- org.eclipse.jetty:jetty-io:jar:9.4.18.v20190429:test
+[[1;34mINFO[m] |  |  |        \- org.eclipse.jetty.websocket:websocket-common:jar:9.4.7.v20170914:test
+[[1;34mINFO[m] |  |  |           \- org.eclipse.jetty.websocket:websocket-api:jar:9.4.7.v20170914:test
+[[1;34mINFO[m] |  |  +- org.seleniumhq.selenium:selenium-opera-driver:jar:3.11.0:test
+[[1;34mINFO[m] |  |  +- org.seleniumhq.selenium:selenium-safari-driver:jar:3.11.0:test
+[[1;34mINFO[m] |  |  +- org.seleniumhq.selenium:selenium-edge-driver:jar:3.11.0:test
+[[1;34mINFO[m] |  |  \- com.codeborne:phantomjsdriver:jar:1.4.1:test
+[[1;34mINFO[m] |  \- org.seleniumhq.selenium:selenium-java:jar:3.11.0:test
+[[1;34mINFO[m] |     +- net.bytebuddy:byte-buddy:jar:1.7.9:test
+[[1;34mINFO[m] |     +- org.apache.commons:commons-exec:jar:1.3:test
+[[1;34mINFO[m] |     +- commons-codec:commons-codec:jar:1.11:test
+[[1;34mINFO[m] |     +- com.google.code.gson:gson:jar:2.8.2:test
+[[1;34mINFO[m] |     +- com.google.guava:guava:jar:27.0.1-jre:test
+[[1;34mINFO[m] |     |  +- com.google.guava:failureaccess:jar:1.0.1:test
+[[1;34mINFO[m] |     |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:test
+[[1;34mINFO[m] |     |  +- com.google.code.findbugs:jsr305:jar:3.0.2:test
+[[1;34mINFO[m] |     |  +- org.checkerframework:checker-qual:jar:2.5.2:test
+[[1;34mINFO[m] |     |  +- com.google.errorprone:error_prone_annotations:jar:2.2.0:test
+[[1;34mINFO[m] |     |  +- com.google.j2objc:j2objc-annotations:jar:1.1:test
+[[1;34mINFO[m] |     |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.17:test
+[[1;34mINFO[m] |     +- org.apache.httpcomponents:httpclient:jar:4.5.7:test
+[[1;34mINFO[m] |     +- org.apache.httpcomponents:httpcore:jar:4.4.11:test
+[[1;34mINFO[m] |     +- com.squareup.okhttp3:okhttp:jar:3.9.1:test
+[[1;34mINFO[m] |     \- com.squareup.okio:okio:jar:1.13.0:test
+[[1;34mINFO[m] \- org.assertj:assertj-core:jar:3.6.2:test
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.975 s
+[[1;34mINFO[m] Finished at: 2019-06-12T09:49:32-03:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

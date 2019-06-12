@@ -1,0 +1,7 @@
+io/quarkus/myfaces/showcase/view/LazySorter.class
+io/quarkus/myfaces/showcase/StartupListener.class
+io/quarkus/myfaces/showcase/view/Car.class
+io/quarkus/myfaces/showcase/view/LazyView.class
+io/quarkus/myfaces/showcase/view/MethodHandleELResolverBean.class
+io/quarkus/myfaces/showcase/view/CarService.class
+io/quarkus/myfaces/showcase/view/LazyCarDataModel.class

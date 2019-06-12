@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: io.quarkus.myfaces.showcase.ShowcaseFt
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.759 s <<< FAILURE! - in io.quarkus.myfaces.showcase.ShowcaseFt
+io.quarkus.myfaces.showcase.ShowcaseFt  Time elapsed: 0.758 s  <<< ERROR!
+org.jboss.arquillian.container.spi.client.container.DeploymentException: Unable to start the runtime runner
+Caused by: java.lang.IllegalStateException: Failed to create the boostrap class loader
+Caused by: io.quarkus.bootstrap.BootstrapException: Failed to locate project pom.xml for /tmp/quarkus-arquillian-test4284398807930930950
+
