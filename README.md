@@ -17,10 +17,10 @@ It's completely based on MyFaces 3.x as some changes were required.
 `git clone https://github.com/apache/myfaces.git && cd myfaces && mvn clean install -DskipTests`
 
 ### Build quarkus-myfaces
-`mvn clean install`
+`mvn clean install -DskipTests`
 
 ### Run showcase
-* `cd quarkus-myfaces-showcase &&  mvn compile quarkus:dev`
+* `cd showcase &&  mvn compile quarkus:dev`
 * Access http://localhost:8080/index.xhtml
 
 
