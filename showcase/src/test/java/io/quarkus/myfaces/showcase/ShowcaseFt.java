@@ -25,9 +25,9 @@ public class ShowcaseFt {
 
 	@Deployment
 	public static JavaArchive deploy() {
-		  return ShrinkWrap.create(JavaArchive.class, "test.jar")
-             .addPackages(true, "io.quarkus.myfaces.showcase.view")
-				  .addClass(StartupListener.class);
+		return ShrinkWrap.create(JavaArchive.class, "test.jar")
+				.addPackages(true, "io.quarkus.myfaces.showcase.view")
+				.addClass(StartupListener.class);
 
 	}
 
@@ -35,6 +35,6 @@ public class ShowcaseFt {
 	@Test
 	public void shouldOpenIdndexPage() {
 		assertThat(browser).isNotNull();
-		browser.get(url+"/index.xhtml");
+		browser.get(url + "/index.xhtml");
 	}
 }
