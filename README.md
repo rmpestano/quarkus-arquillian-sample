@@ -10,22 +10,18 @@ It's completely based on MyFaces 3.x as some changes were required.
 - Quarkus: session replication / passivation / clustering
 - some features probably :D
 
-## Whats not tested?
-- some features probably :D
-- native images
 
 ## How to try it?
 
 ### Build MyFaces
-- https://github.com/apache/myfaces.git 
-- mvn clean install -DskipTests
+`git clone https://github.com/apache/myfaces.git && cd myfaces && mvn clean install -DskipTests`
 
 ### Build quarkus-myfaces
-- cd quarkus-myfaces
-- mvn clean install
+`mvn clean install`
 
 ### Run showcase
-- cd quarkus-myfaces-showcase
-- mvn compile quarkus:dev
+* `cd quarkus-myfaces-showcase &&  mvn compile quarkus:dev`
+* Access http://localhost:8080/index.xhtml
+
 
 
